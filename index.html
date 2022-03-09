@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economics</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>My economic aplication</h1>
+    <main>
+        <section class="economics_sections">
+
+            <section class="form-card">
+                <form>
+                    <h3>Transaction type</h3>
+                    <div class="form_control radio_btns">
+                        
+                        <div class="rdbtn-entry rbtn">
+                            <label for="entry">entry</label>
+                            <input type="radio" name="entry" id="entry">
+                        </div>
+                        
+                        <div class="rdbtn-spense rbtn">
+                            <label for="spending">spending</label>
+                            <input type="radio" name="spending" id="spending" >
+                        </div>
+
+                    </div>
+    
+                    <div class="form_control">
+                        <label for="expenseDescription">Expense Description</label>
+                        <input type="text" name="expenseDescription" id="expenseDescription" placeholder="Expense Description">
+                    </div>
+    
+                    <div class="form_control">
+                        <label for="expenseMount">Expense Mount</label>
+                        <input type="number" name="expenseMount" id="expenseMount" placeholder="Expense Mount">
+                    </div>
+    
+                    <div class="form_control">
+                        <label for="expenseCategori">Expense Categori</label>
+                        <input type="text" name="expenseCategori" id="expenseCategori" placeholder="Expense Categori">
+                    </div>
+                    <button>Add Transaction</button>
+                </form>
+            </section>
+    
+            <section>
+                <h2>table</h2>
+            </section>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
